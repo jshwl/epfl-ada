@@ -16,16 +16,18 @@ The data we are going analyze derives from two main sources: the “200 years ne
 # Dataset
 - * "The New York Times" online archive and the "TimesMachine" (also through the available APIs)
 - * "200 years news" (Le Temps) dataset on the EPFL cluster 
-- * We expect to get the set of relevant articles by performing a complete search by means of dictionaries of keywords and implement a method to retrieve information from pictures, maps and charts.
 
-# A list of internal milestones up until project milestone 2
+# A list of internal milestones up until project milestone 3
 
-- Make sure we are granted access to both datasets, by requesting API keys for the TimesMachine and cluster access permission for Le Temps.
-- Data filtering: we will look for news that refer to the aforementioned War scenario hence we will select only the subset fitting the project purpose. 
-- Implementing a strategy to extract the information relevant to the research questions. 
-- Exploratory data analysis: representation of the data to gain insight. Verify whether the data retrieval gave back meaningful information. Apply iterative procedure to correct our methods and deal with unexpected results.
-- Sketching a preliminary version of the datastory.
+- Sketch of preliminary version of the datastory
 
-# Questions for TAa
-- What is the format of data from the "200 years news" dataset?
-- Which libraries and frameworks are allowed for both handling and representing data?
+![alt text](https://raw.githubusercontent.com/jshwl/epfl-ada/blob/master/project-ada/datastory.png)
+
+- Improve the news filtering method (as stated in the notebook)
+- Information extraction based on named-entity recognition for french and english documents
+- Mapping articles or quantities of references to cities/countries
+- Generate maps for each year covering 1937-1945
+
+
+# Questions for TAs
+- Are there tools allowing to retrieve historical maps (in topojson/shapefile format)?
