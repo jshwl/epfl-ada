@@ -19,9 +19,7 @@ The data we are going analyze derives from two main sources: the “200 years ne
 
 # A list of internal milestones up until project milestone 3
 
-- Sketch of preliminary version of the datastory
-
-![alt text](https://raw.githubusercontent.com/jshwl/epfl-ada/blob/master/project-ada/datastory.png)
+- Sketch of preliminary version of the datastory (https://github.com/jshwl/epfl-ada/blob/master/project-ada/datastory.png)
 
 - Improve the news filtering method (as stated in the notebook)
 - Information extraction based on named-entity recognition for french and english documents
