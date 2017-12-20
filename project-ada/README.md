@@ -1,6 +1,7 @@
 # When news make history
 ## The Pacific chapter of World War II according to The New York Times and Le Temps 
-EPFL - Applied Data Analysis project  
+EPFL - Applied Data Analysis project 
+nbviewer link http://nbviewer.jupyter.org/github/jshwl/epfl-ada/blob/master/project-ada/project.ipynb
 # Abstract
 The information we have access to defines the way we perceive the world. News media and journals in particular have contributed, since their very inception, to the spread of knowledge, influencing public opinion and setting the foundations for what we call history today. This project aims at extracting how events were reported from newspapers archives in order to enliven crucial historic events. More specifically we focus on the Asian-Pacific theatre of World War II.
 The data we are going analyze derives from two main sources: the “200 years news (Le Temps)” and the TimesMachine datasets. The former is the full archive of the last 200 years of two Swiss newspapers, Journal de Genève and Gazette de Lausanne, the predecessors of the nationwide newspaper Le Temps. The latter is the online archive of all the New York Times issues covering from 1851 to 2002. 
@@ -26,6 +27,8 @@ The data we are going analyze derives from two main sources: the “200 years ne
 - Mapping articles or quantities of references to cities/countries
 - Generate maps for each year covering 1937-1945
 
+# Tasks
 
-# Questions for TAs
-- Are there tools allowing to retrieve historical maps (in topojson/shapefile format)?
+- Joseph Vavalà: Data retrieval, report, information extraction, filtering and dictionaries, preliminary data analysis.
+- Foivos Anagnou: Data retrieval, report, coming up with the algorithms, test running.
+- Lkham: Map creation and plotting,
